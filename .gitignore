@@ -1,0 +1,8 @@
+# Package bodies are published as GitHub Release assets, never committed.
+# Only the repository database belongs in git.
+packages/*.pkg.tar.zst
+
+# Build residue from local packaging runs.
+src/
+pkg/
+*.pkg.tar.zst.old
