@@ -19,12 +19,11 @@ so package bodies can only travel as Release assets. The database is small
 
 ## Client setup
 
-Add the snippet in `pacman.conf.d/` to `/etc/pacman.conf`, replacing `USERNAME`
-with the owning GitHub account:
+Add the snippet in `pacman.conf.d/` to `/etc/pacman.conf`:
 
 ```ini
 [dsh-arch-desktop]
-Server = https://USERNAME.github.io/dsh-arch-desktop/x86_64
+Server = https://boyunxi.github.io/dsh-arch-desktop/x86_64
 SigLevel = Optional TrustAll
 ```
 
