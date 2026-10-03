@@ -2,7 +2,9 @@
 # Only the repository database belongs in git.
 packages/*.pkg.tar.zst
 
-# Build residue from local packaging runs.
+# Build residue from local packaging runs, plus repo-add's previous-database
+# backups (dsh-arch-desktop.db.tar.zst.old / .files.tar.zst.old).
 src/
 pkg/
 *.pkg.tar.zst.old
+x86_64/*.old
